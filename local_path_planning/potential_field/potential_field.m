@@ -7,7 +7,7 @@
 %             max_angular = maximum angular velocity
 %                gain_att = attractive potential gain
 %                gain_rep = repulsive potential gain
-%               ol_buffer = distance to object when repulsive potential kicks in
+%              col_buffer = distance to object when repulsive potential kicks in
 %         distance_thresh = threshold distance when switching from conic attractive
 %                           potential to quadratic attractive potential
 %                   alpha = step size of gradient descent
