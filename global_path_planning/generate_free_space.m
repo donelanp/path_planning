@@ -1,7 +1,6 @@
 %--------------------------------------------------------------------------
 % purpose generate 2D free space for a circular robot
 %  input:  robot_radius = radius of circular mobile robot
-%                colobj = cell array of collision boxes for environment
 %                bounds = bounds of free space [xmin xmax ymin ymax]
 %                     N = number of points
 %               occ_map = 2D binary occupancy map

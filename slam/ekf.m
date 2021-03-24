@@ -15,9 +15,6 @@
 %--------------------------------------------------------------------------
 
 function [x_est, x_est_hist, P] = ekf(x_est, x_est_hist, x_true_hist, u, Q, P, R, a, ts)
-% rotation axis
-ez = [0; 0; 1];
-
 % kalman filter prediction step
 [x_pred, F] = state_transition(x_est, u, Q, a, ts);
 P = F * P * F' + Q;
